@@ -1,32 +1,26 @@
 *{
     margin: 0;
-    padding: 0;
 }
 
-#text{
- color:olive;
+body{
+
+}
+
+h1{
+    color:rgba(81, 0, 255, 0.74);
 }
 
 
 
-
-
-.card{
-    width: 200px;
-    height: 200px;
-    background: lime;
-    background:red;
+.wrapper{
+    width:50vw;
+    height: 100vh;
+    background-color: #dc143c;
 }
 
-.border{
-    border: 4px solid black;
-    width: 30px;
-}
 
-.m-1{
-    margin: 10px;
-}
+/* 1 rem = 16px */
 
-.m-2{
-    margin: 20px;
-}
+/* red green blue */
+
+
