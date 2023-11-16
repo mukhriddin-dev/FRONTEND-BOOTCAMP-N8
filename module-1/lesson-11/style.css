@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+
+
+header{
+  background-color: rgba(0, 0, 0, 0.643);
+  padding: 40px;
+  position:fixed;
+  width: 100%;
+  top:0;
+  backdrop-filter: blur(10px);
+}
+
+
+.banner{
+  background-color:deepskyblue;
+  padding: 30px;
+  /* position: sticky;
+  top:90px; */
+}
