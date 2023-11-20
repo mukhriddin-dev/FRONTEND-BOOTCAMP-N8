@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<h1 class="text" id="text">HTML5 FORM ELEMENTS</h1>
+
+<fieldset>
+
+    <legend>Registration</legend>
+    
+    <form action="https://echo.htmlacademy.ru/" method="post">
+ 
+      <label for="name">
+         <p>Full name:</p>
+        <input type="text" id="name" name="full_name" placeholder="Enetr full name" required aria-label="Enetr full name">
+      </label>
+
+       <label for="age">
+         <p>Age:</p>
+        <input type="number" id="age" name="age" placeholder="Enetr your age" max="70" min="16" required>
+       </label>
+
+       <label for="email">
+         <p>Email:</p>
+        <input type="email" id="email" name="email" placeholder="Enetr your email" required>
+       </label>
+
+        <label for="password">
+         <p>Password:</p>
+        <input type="password" id="password" name="password" placeholder="Enetr your password" maxlength="16" minlength="6" required>
+       </label>
+
+       <select  id="group" name="course_type" required>
+        <option value="frontend">frontend</option>
+        <option value="backend">backend</option>
+       </select>
+
+       <label for="check">
+        Shartlarga rozimisiz
+        <input type="radio" name="check" id="check">
+           <input type="radio" name="check" id="check1">
+       </label>
+
+
+      <button type="submit">
+        SEND
+      </button>
+     
+
+
+
+    </form>
+
+</fieldset>
+
+
+
+
+</body>
+</html>
