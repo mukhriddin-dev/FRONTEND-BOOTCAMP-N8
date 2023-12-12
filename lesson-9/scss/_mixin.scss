@@ -1,0 +1,11 @@
+// mixins for
+
+@mixin wrapperGrid($js, $g, $fd, $wr) {
+    display: flex;
+    justify-content: $js;
+    gap: $g;
+    flex-direction: $fd;
+    flex-wrap: $wr;
+}
+
+// @include mixinName(red, white) // call to mixin

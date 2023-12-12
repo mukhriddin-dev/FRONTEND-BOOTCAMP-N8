@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+body::-webkit-scrollbar {
+    background-color: #000000;
+}
+
+body::-webkit-scrollbar-track {
+    background: coral;
+    width: 30px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 30px;
+    width: 30px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1c1c1c;
+        color: #fff;
+    }
+}

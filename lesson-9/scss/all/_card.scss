@@ -1,0 +1,11 @@
+#cards {
+    min-height: 800px;
+    padding: 50px 0;
+
+    .wrapper {
+        @include wrapperGrid(space-evenly, 6px, row, wrap);
+        .card {
+            @extend %cardStyle;
+        }
+    }
+}

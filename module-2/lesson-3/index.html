@@ -1,65 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="./assets/images/favicon.png" />
-        <!-- main css file  -->
-        <link rel="stylesheet" href="./style.css" />
-        <title>Botanical Garden</title>
-    </head>
-    <body>
-        <!-- ----------  header section ---------- -->
-
-        <header>
+    <meta charset="UTF-8" /><meta content="width=device-width,initial-scale=1" name="viewport" /><link
+    href=./assets/images/favicon.png rel=icon><link href=./style.min.css rel=stylesheet><title>Botanical Garden</title>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a class="nav__logo" href=""><img alt=logo src=./assets/images/logo.svg></a>
+                <ul class="nav__list">
+                    <li class="nav__list--item"><a class="nav__list--item-link" href="#">Home</a></li>
+                    <li class="nav__list--item"><a class="nav__list--item-link" href="#">Visit</a></li>
+                    <li class="nav__list--item"><a class="nav__list--item-link" href="#">Exhibitions</a></li>
+                    <li class="nav__list--item"><a class="nav__list--item-link" href="#">Programs & Events</a></li>
+                    <li class="nav__list--item"><a class="nav__list--item-link" href="#">Store</a></li>
+                    <li class="nav__list--item"><a class="nav__list--item-link btn" href="#">Membership</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="intro">
             <div class="container">
-                <nav class="nav">
-                    <a href="" class="nav__logo">
-                        <img src="./assets/images/logo.svg" alt="logo" />
-                    </a>
-                    <ul class="nav__list">
-                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">Home</a></li>
-                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">Visit</a></li>
-                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">Exhibitions</a></li>
-                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">Programs & Events</a></li>
-                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">Store</a></li>
-                        <li class="nav__list--item">
-                            <a href="#" class="nav__list--item-link btn"> Membership </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <!-- ----------  header section ---------- -->
-
-        <main>
-            <!-- section intro -->
-
-            <section id="intro">
-                <div class="container">
-                    <div class="intro__wrapper">
-                        <div class="intro__wrapper--left">
-                            <h1>A beatiful adventure awaits</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
-                            <button class="btn__primary">Buy Tickets</button>
-                            <button class="btn__primary">Learn More</button>
-                        </div>
-
-                        <div class="intro__wrapper--right">
-                            <picture >
-                                <source
-                                
-                                    srcset="./assets/images/Intro-img@1x.png 1x, ./assets/images/Intro-img@2x.png 2x"
-                                />
-                                <img class="intro__wrapper--img" src="./assets/images/Intro-img@1x.png" alt="intro img" />
-                            </picture>
-                        </div>
+                <div class="intro__wrapper">
+                    <div class="intro__wrapper--left">
+                        <h1>A beatiful adventure awaits</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
+                        <button class="btn__primary">Buy Tickets</button>
+                        <button class="btn__primary">Learn More</button>
+                    </div>
+                    <div class="intro__wrapper--right">
+                        <picture
+                            ><source srcset="./assets/images/Intro-img@1x.png, ./assets/images/Intro-img@2x.png 2x" />
+                            <img alt="intro img"src=./assets/images/Intro-img@1x.png class=intro__wrapper--img></picture
+                        >
                     </div>
                 </div>
-            </section>
-
-            <!-- section intro end -->
-        </main>
-    </body>
+            </div>
+        </section>
+    </main>
 </html>
