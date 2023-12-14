@@ -1,0 +1,60 @@
+.p-1 {
+  padding: 4px;
+}
+
+.p-2 {
+  padding: 8px;
+}
+
+.p-3 {
+  padding: 12px;
+}
+
+.p-4 {
+  padding: 16px;
+}
+
+.p-5 {
+  padding: 20px;
+}
+
+.p-x-1 {
+  padding: 0 4px;
+}
+
+.p-x-2 {
+  padding: 0 8px;
+}
+
+.p-x-3 {
+  padding: 0 12px;
+}
+
+.p-x-4 {
+  padding: 0 16px;
+}
+
+.p-x-5 {
+  padding: 0 20px;
+}
+
+
+.p-y-1 {
+  padding:  4px 0;
+}
+
+.p-y-2 {
+  padding:  8px 0;
+}
+
+.p-y-3 {
+  padding:  12px 0;
+}
+
+.p-y-4 {
+  padding:  16px 0;
+}
+
+.p-y-5 {
+  padding:  20px 0;
+}

@@ -1,0 +1,43 @@
+.container {
+  max-width: 1250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.container-xl {
+  max-width: 1600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.container-lg {
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.container-md {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.container-sm {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+

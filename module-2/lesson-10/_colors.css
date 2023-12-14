@@ -1,0 +1,8 @@
+:root{
+    --primary-color: blue !important;
+    --secondary-color: gray !important;
+    --danger-color: red !important;
+    --warning-color: yellow !important;
+    --success-color: seagreen !important;
+    --text-white: #fff;
+}

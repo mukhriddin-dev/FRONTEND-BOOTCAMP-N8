@@ -1,0 +1,38 @@
+@import "./_colors.css";
+
+/* main style  */
+.btn{
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* types  */
+
+.btn-primary{
+    background: var(--primary-color);
+    color: var(--text-white);
+}
+
+.btn-secondary{
+    background: var(--secondary-color);
+    color: var(--text-white);
+}
+
+.btn-success{
+    background: var(--success-color);
+    color: var(--text-white);
+}
+
+.btn-danger{
+    background: var(--danger-color);
+    color: var(--text-white);
+}
+
+.btn-warning{
+    background: var(--warning-color);
+    color: var(--text-white);
+}
+

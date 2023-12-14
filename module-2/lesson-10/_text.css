@@ -1,0 +1,43 @@
+@import "./_colors.css";
+
+.text-primary{
+  color: var(--primary-color);
+}
+
+.text-secondary{
+  color: var(--secondary-color);
+}
+
+.text-danger{
+  color: var(--danger-color);
+}
+
+
+.text-success{
+  color: var(--success-color);
+}
+
+.text-warning{
+  color: var(--warning-color);
+}
+
+.text-sm{
+    font-size: 14px;
+}
+
+.text-md{
+    font-size: 24px;
+}
+
+.text-lg{
+    font-size: 32px;
+}
+
+.text-xl{
+    font-size: 36px;
+}
+
+
+.text-xxl{
+    font-size: 41px;
+}
